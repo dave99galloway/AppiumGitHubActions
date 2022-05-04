@@ -4,6 +4,7 @@
 name: Appium Android
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
